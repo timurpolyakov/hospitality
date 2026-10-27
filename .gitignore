@@ -1,0 +1,26 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+demo/*.sqlite3
+demo/*.sqlite3-shm
+demo/*.sqlite3-wal
+
+# Private source materials and all associated research
+/data/
+/Hackathon Resources/
+/model_kit/
+/analysis.twb
+*.twbx
+*.hyper
+*.tde
+*.xlsx
+*.xls
+/StudentPacket_2026.docx
+/dashboard-export-*.pdf
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
